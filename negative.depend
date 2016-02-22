@@ -1,0 +1,259 @@
+# depslib dependency file v1.0
+1446013313 source:d:\project\negative\main.cpp
+	<iostream>
+	"png/png.hpp"
+	<cmath>
+
+1421328486 d:\project\negative\png\png.hpp
+	<png.h>
+	"config.hpp"
+	"types.hpp"
+	"error.hpp"
+	"color.hpp"
+	"palette.hpp"
+	"tRNS.hpp"
+	"packed_pixel.hpp"
+	"rgb_pixel.hpp"
+	"rgba_pixel.hpp"
+	"gray_pixel.hpp"
+	"ga_pixel.hpp"
+	"index_pixel.hpp"
+	"info_base.hpp"
+	"info.hpp"
+	"end_info.hpp"
+	"io_base.hpp"
+	"reader.hpp"
+	"writer.hpp"
+	"generator.hpp"
+	"consumer.hpp"
+	"pixel_buffer.hpp"
+	"solid_pixel_buffer.hpp"
+	"require_color_space.hpp"
+	"convert_color_space.hpp"
+	"image.hpp"
+
+1244148012 d:\gnuwin32\include\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1121653608 d:\gnuwin32\include\zlib.h
+	"zconf.h"
+
+1121874026 d:\gnuwin32\include\zconf.h
+	<windows.h>
+	<sys/types.h>
+	<unistd.h>
+	<unixio.h>
+
+1244148012 d:\gnuwin32\include\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
+1421328486 d:\project\negative\png\config.hpp
+	<endian.h>
+	<machine/endian.h>
+	<sys/_endian.h>
+	<machine/endian.h>
+	<sys/endian.h>
+	<sys/isa_defs.h>
+
+1421328486 d:\project\negative\png\types.hpp
+	<png.h>
+
+1421328486 d:\project\negative\png\error.hpp
+	<string>
+	<stdexcept>
+	<cerrno>
+	<cstdlib>
+	<cstring>
+
+1421328486 d:\project\negative\png\color.hpp
+	"types.hpp"
+
+1421328486 d:\project\negative\png\palette.hpp
+	<vector>
+	"color.hpp"
+
+1421328486 d:\project\negative\png\trns.hpp
+	<vector>
+	"color.hpp"
+
+1421328486 d:\project\negative\png\packed_pixel.hpp
+	"types.hpp"
+
+1421328486 d:\project\negative\png\rgb_pixel.hpp
+	"types.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\pixel_traits.hpp
+	<limits>
+	"types.hpp"
+
+1421328486 d:\project\negative\png\rgba_pixel.hpp
+	"types.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\gray_pixel.hpp
+	"types.hpp"
+	"packed_pixel.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\ga_pixel.hpp
+	<limits>
+	"types.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\index_pixel.hpp
+	"types.hpp"
+	"packed_pixel.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\info_base.hpp
+	<cassert>
+	"error.hpp"
+	"types.hpp"
+
+1421328486 d:\project\negative\png\info.hpp
+	<cassert>
+	"info_base.hpp"
+	"image_info.hpp"
+
+1421328486 d:\project\negative\png\image_info.hpp
+	"types.hpp"
+	"palette.hpp"
+	"tRNS.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\end_info.hpp
+	"info_base.hpp"
+
+1421328486 d:\project\negative\png\io_base.hpp
+	<cassert>
+	<cstdio>
+	<cstdarg>
+	"error.hpp"
+	"info.hpp"
+	"end_info.hpp"
+
+1421328486 d:\project\negative\png\reader.hpp
+	<cassert>
+	"io_base.hpp"
+
+1421328486 d:\project\negative\png\writer.hpp
+	<cassert>
+	"io_base.hpp"
+
+1421328486 d:\project\negative\png\generator.hpp
+	<cassert>
+	<stdexcept>
+	<iostream>
+	<ostream>
+	"config.hpp"
+	"error.hpp"
+	"streaming_base.hpp"
+	"writer.hpp"
+
+1421328486 d:\project\negative\png\streaming_base.hpp
+	<cassert>
+	"image_info.hpp"
+	"pixel_traits.hpp"
+
+1421328486 d:\project\negative\png\consumer.hpp
+	<cassert>
+	<stdexcept>
+	<iostream>
+	<istream>
+	"config.hpp"
+	"error.hpp"
+	"streaming_base.hpp"
+	"reader.hpp"
+	"pixel_buffer.hpp"
+
+1421328486 d:\project\negative\png\pixel_buffer.hpp
+	<cassert>
+	<cstddef>
+	<stdexcept>
+	<vector>
+	"packed_pixel.hpp"
+	"gray_pixel.hpp"
+	"index_pixel.hpp"
+
+1421328486 d:\project\negative\png\solid_pixel_buffer.hpp
+	<cassert>
+	<cstddef>
+	<climits>
+	<stdexcept>
+	<vector>
+	"config.hpp"
+	"packed_pixel.hpp"
+	"gray_pixel.hpp"
+	"index_pixel.hpp"
+
+1421328486 d:\project\negative\png\require_color_space.hpp
+	"error.hpp"
+	"rgb_pixel.hpp"
+	"rgba_pixel.hpp"
+	"gray_pixel.hpp"
+	"ga_pixel.hpp"
+	"index_pixel.hpp"
+	"io_base.hpp"
+
+1421328486 d:\project\negative\png\convert_color_space.hpp
+	"error.hpp"
+	"rgb_pixel.hpp"
+	"rgba_pixel.hpp"
+	"gray_pixel.hpp"
+	"ga_pixel.hpp"
+	"index_pixel.hpp"
+	"reader.hpp"
+	"writer.hpp"
+
+1421328486 d:\project\negative\png\image.hpp
+	<fstream>
+	"pixel_buffer.hpp"
+	"generator.hpp"
+	"consumer.hpp"
+	"convert_color_space.hpp"
+
+1244148012 d:\gnuwin32\include\libpng12\png.h
+	"zlib.h"
+	"pngconf.h"
+	<crtdbg.h>
+
+1244148012 d:\gnuwin32\include\libpng12\pngconf.h
+	"pngusr.h"
+	"config.h"
+	<windows.h>
+	<stdio.h>
+	<stdio.h>
+	<sys/types.h>
+	<setjmp.h>
+	<strings.h>
+	<string.h>
+	<stdlib.h>
+	<fp.h>
+	<math.h>
+	<m68881.h>
+	<mem.h>
+	<alloc.h>
+	<malloc.h>
+	<time.h>
+	<dos.h>
+
